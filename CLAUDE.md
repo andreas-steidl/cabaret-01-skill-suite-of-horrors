@@ -3,11 +3,11 @@
 Erste Spielzeit des Kabaretts von Falzbein und Andy: **„Die Skill-Suite des Grauens“** /
 **„The Skill Suite of Horrors“**. Sechs Spickzettel gegen Windows-Fallen (slash-n-back,
 return-to-sender, fluchthelfer, tischlein-deck-dich, lattenzaun, suite-des-grauens).
-Host: **https://grauen.special.at/** (Inhalt von `web/`, flach hochgeladen).
+Host: **https://horrors.special.at/** (Inhalt von `web/`, flach hochgeladen).
 
 ## Ordner
 - `skills/de/<name>/SKILL.md`, `skills/en/<name>/SKILL.md` (+ `skills/en/README.md`). Ordnernamen bleiben deutsch, auch im Englischen.
-- `web/` – die Seite: `index.html` (de), `en.html` (en), Zips, Plakate, Signet, `LICENSE.txt`, `SHA256SUMS(.sig)`, `allowed_signers`.
+- `web/` – die Seite: `index.html` (Sprachwähler), `de/index.html`, `en/index.html`, Zips, Plakate, Signet, `LICENSE.txt`, `SHA256SUMS(.sig)`, `allowed_signers`.
 - `plakat/` – `bild_ohne_schrift.png` (Bild von Codex, ohne Schrift), `plakat.py` (de), `plakate_en.py` (en), `logos.py` (Signet, Favicon, Querlogo), fertige Plakate.
 - `doku/` – `LIESMICH.md` (Programmheft, liegt auch im Gesamt-Zip), Premierenstimmen `kommentar_*.md`, `index_vor_fonts_2026-11-03.html` (Archiv).
 
@@ -17,9 +17,10 @@ Host: **https://grauen.special.at/** (Inhalt von `web/`, flach hochgeladen).
 - **Seite:** statisches HTML, keine Build-Kette; nur Google Fonts von außen. Sicherungen `*.vor-*.html` nicht einchecken.
 
 ## Querverweise
-Zweite Spielzeit `../02-panik` (panik.special.at), dritte `../03-katastrophen` (in Arbeit), Bühne und Gesamtskill `../zwischenraum` (zwischenraum.special.at). Herkunft: Baustelle `\\nas\Public\dev\skill-suite-des-grauens\` (nur lesen).
+Zweite Spielzeit `../02-panik` (dontpanic.special.at), dritte `../03-katastrophen` (lostintranslation.special.at), Bühne und Gesamtskill `../zwischenraum` (zwischenraum.special.at). Herkunft: Baustelle `\\nas\Public\dev\skill-suite-des-grauens\` (nur lesen).
 
 ## Regeln
+- Sprachen: siehe `\\nas\Public\dev\kabarett\WIE_MACH_ICH_SPRACHEN.md`.
 - Texte UTF-8 (ohne BOM).
 - Jede Seite und jeder Skill auf Deutsch **und** Englisch.
 - Keine Religion, keine Politik in Namen und Texten.
