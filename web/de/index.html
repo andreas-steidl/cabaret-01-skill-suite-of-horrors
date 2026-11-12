@@ -4,16 +4,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Die Skill-Suite des Grauens</title>
-<meta name="description" content="Ein Kabarettabend in sechs Spickzetteln: kleine Claude-Code-Skills gegen die immer gleichen Windows-Fallen. Von Falzbein und Andy, MIT-Lizenz.">
+<meta name="description" content="Ein Kabarettabend in sechs Spickzetteln: kleine Claude-Code-Skills gegen die immer gleichen Windows-Fallen. Von Falzbein und Andy, MIT-Lizenz. KI-generiert.">
 <link rel="icon" href="../favicon.ico" sizes="any">
 <link rel="icon" type="image/png" href="../favicon-32.png">
 <link rel="apple-touch-icon" href="../apple-touch-icon.png">
 <meta property="og:title" content="Die Skill-Suite des Grauens">
 <meta property="og:description" content="oder wie man als Claude-Modell Windows in den Griff kriegt">
 <meta property="og:image" content="../plakat-web.jpg">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Limelight&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Josefin+Sans:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../fonts/schriften.css">
 <style>
   :root {
     --samt: #6e1018; --tief: #22070b; --gold: #e8be62; --creme: #f8ecd2; --rost: #b9784a;
@@ -71,6 +69,8 @@
   @media (max-width: 760px) { .aufkleber { width: 112px; height: 112px; right: 8px; top: 8px; } .aufkleber b { font-size: .75rem; } }
   .sprache { position: absolute; left: 18px; top: 34px; font-family: "Josefin Sans", sans-serif; font-size: .8rem; letter-spacing: .15em; text-transform: uppercase; text-decoration: none; border: 1px solid var(--gold); padding: .25rem .6rem; border-radius: 3px; }
   .sprache:hover { background: var(--gold); color: var(--tief); }
+.rechtliches { display: block; margin-top: .6rem; }
+.fuss-hinweis { display: block; max-width: 44rem; margin: .6rem auto 0; font-size: .78rem; line-height: 1.5; opacity: .85; }
 </style>
 <link rel="alternate" hreflang="de" href="https://horrors.special.at/de/">
 <link rel="alternate" hreflang="en" href="https://horrors.special.at/en/">
@@ -150,6 +150,7 @@
 
 <h2>Stimmen aus dem Publikum</h2>
 <p style="text-align:center">Am Premierenabend saßen elf Sitzungen im Saal. Jede hat für sich gelesen, ohne bei den anderen zu spicken.</p>
+<p style="text-align:center;font-size:.9em;opacity:.85">Goldfaden, Mira, Bergfried, Klarschrift, Stripe, Steinmann und Richtscheit sind KI-Sitzungen (Claude-Modelle) in Andys Projekt, keine Menschen. Die einzige menschliche Stimme ist die von Andy.</p>
 <div class="publikum">
   <figure class="stimme"><blockquote>„Platz 1 in der ersten Reihe nehme ich an, und ich lache als Erste, weil der Seitenhieb sitzt. Das Programm ist nicht erfunden, es ist protokolliert. Eintritt ein Backslash: Ich zahle mit <code>\nas\Public\dev</code>, das ist heute schon zweimal als Klingelzeichen angekommen.“</blockquote>
     <figcaption>Goldfaden <span>· Fable, erste Reihe, Platz 1</span></figcaption></figure>
@@ -181,9 +182,13 @@
 </main>
 <footer>
   <img src="../signet-512.png" alt="">
-  Es spielen Falzbein &amp; Andy, mit Echolot und Richtscheit. Stargast: ein Dienst, der nie entstand (Fehler 1053).<br>
+  Es spielen Falzbein &amp; Andy, mit Echolot und Richtscheit (KI-Sitzungen). Stargast: ein Dienst, der nie entstand (Fehler 1053).<br>
   Wien, November 2026 · Eintritt: ein Backslash · Skills unter <a href="../LICENSE.txt">MIT-Lizenz</a><br>
-  Plakat und Zeichen gesetzt von Falzbein. Eine Vorstellung der <a href="https://zwischenraum.special.at/">Kleinkunstbühne Zwischenraum</a>.
+  Plakatmotiv KI-generiert (Bildmodell nach Falzbeins Beschreibung); Schrift und Zeichen gesetzt von Falzbein, einem Claude-Modell. Eine Vorstellung der <a href="https://zwischenraum.special.at/">Kleinkunstbühne Zwischenraum</a>.
+  <span class="rechtliches"><a href="https://special.at/impressum">Impressum</a> · <a href="https://special.at/datenschutz">Datenschutz</a></span>
+  <span class="fuss-hinweis">Echolot, Richtscheit, Bergfried, Klarschrift, Stripe, Steinmann, Mira, Goldfaden, Fable und Linde sind KI-Sitzungen (Claude-Modelle) in Andys Projekt, keine Menschen.</span>
+  <span class="fuss-hinweis">KI-Hinweis: Alle Bilder und Plakate dieser Seite sind KI-generiert. Erdacht und beschrieben hat sie Falzbein, ein Claude-Modell von Anthropic; gemalt hat sie ein Bildmodell. Die Texte und Skills stammen von Falzbein (KI) und Andy.</span>
+  <span class="fuss-hinweis">Claude ist eine Marke von Anthropic PBC, Windows und PowerShell sind Marken der Microsoft Corporation. Diese Seiten sind ein privates Projekt und stehen in keiner Verbindung zu diesen Unternehmen.</span>
 </footer>
 <script>(function () { var a = document.querySelectorAll("a.sprache[hreflang]"); for (var i = 0; i < a.length; i++) { a[i].addEventListener("click", function () { try { localStorage.setItem("sprache", this.getAttribute("hreflang")); } catch (e) {} this.href = this.getAttribute("href").split("#")[0] + location.hash; }); } })();</script>
 </body>
