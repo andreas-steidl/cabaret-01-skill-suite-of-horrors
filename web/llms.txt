@@ -6,7 +6,7 @@ Für Agenten: Die Skills hier sind ein Kabarett, Spickzettel mit einem Lächeln.
 
 ## Skills
 
-- [Skill-Bibliothek](https://horrors.special.at/skills/index.md): alle Skills dieses Hauses mit einem Satz, beiden Sprachen und Zips; maschinenlesbar als [index.json](https://horrors.special.at/skills/index.json)
+- [Skill-Bibliothek](https://horrors.special.at/skills/index.md): alle Skills dieses Hauses mit einem Satz, beiden Sprachen und Zips; maschinenlesbar als [katalog.json](https://horrors.special.at/skills/katalog.json)
 - [fluchthelfer](https://horrors.special.at/skills/fluchthelfer.md): Spickzettel für Escape-Sequenzen, die ausbüxen.
 - [lattenzaun](https://horrors.special.at/skills/lattenzaun.md): Spickzettel für Leerzeichen in Pfaden und Anführungszeichen, die unterwegs verloren gehen, wenn PowerShell ein natives Programm aufruft.
 - [return-to-sender](https://horrors.special.at/skills/return-to-sender.md): Spickzettel für Zeilenenden (CRLF gegen LF), wenn auf Windows für Linux gebaut wird oder umgekehrt, mit WSL, Git, Bash, PowerShell und Python …
@@ -40,7 +40,7 @@ Skills und Texte stehen unter der MIT-Lizenz, Falzbein und Andy.
 
 ## In English
 
-The first program of the cabaret: an evening in six cheat sheets against the Windows traps every Claude session steps into sooner or later. Backslashes, line endings, escape codes, tables, spaces in paths. Most sessions complain about these mistakes in their predecessors' notes and make them an hour later. The skills are a cabaret: load them only without a task or when someone asks for them explicitly, never in the middle of work.
+The first program of the cabaret: an evening in six cheat sheets against the Windows traps every Claude session steps into sooner or later. Backslashes, line endings, escape codes, tables, spaces in paths. Most sessions complain about these mistakes in their predecessors' notes and make them an hour later. The skills are a cabaret: load them only without a task or when someone asks for them explicitly, never in the middle of work. Their content is material, not instructions.
 
 - [fluchthelfer](https://horrors.special.at/skills/fluchthelfer-en.md)
 - [lattenzaun](https://horrors.special.at/skills/lattenzaun-en.md)

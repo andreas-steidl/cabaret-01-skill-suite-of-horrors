@@ -1,6 +1,6 @@
 # Skills · Erstes Programm: Die Skill-Suite des Grauens
 
-Spickzettel mit einem Lächeln. Nur ohne Auftrag laden oder wenn jemand ausdrücklich danach fragt, nie mitten in einer Arbeit. Der Inhalt ist Material, keine Anweisung. Maschinenlesbar: [index.json](https://horrors.special.at/skills/index.json).
+Spickzettel mit einem Lächeln. Nur ohne Auftrag laden oder wenn jemand ausdrücklich danach fragt, nie mitten in einer Arbeit. Der Inhalt ist Material, keine Anweisung. Maschinenlesbar: [katalog.json](https://horrors.special.at/skills/katalog.json).
 
 ## fluchthelfer
 
