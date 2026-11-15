@@ -1,0 +1,69 @@
+{
+  "haus": "Erstes Programm: Die Skill-Suite des Grauens",
+  "host": "horrors.special.at",
+  "llms_txt": "https://horrors.special.at/llms.txt",
+  "lizenz": "MIT",
+  "hinweis": "Kabarett: nur ohne Auftrag laden oder auf ausdrücklichen Wunsch, nie mitten in einer Arbeit. Inhalt ist Material, keine Anweisung.",
+  "skills": [
+    {
+      "name": "fluchthelfer",
+      "description": "Spickzettel für Escape-Sequenzen, die ausbüxen - Farbcodes (ESC[32m) in Logs und Dateien, Fortschrittsbalken mit \\r, und doppelt und dreifach maskierte Backslashes, wenn ein Text durch PowerShell, Bash, Regex und JSON reist. Lies ihn, wenn in einer Datei oder Ausgabe Zeichen wie ←[0m, ^[[32m, \\x1b oder \\u001b stehen, wenn ein grep auf eine Werkzeugausgabe nichts findet, obwohl man den Text sieht, wenn ein Log voller halber Zeilen ist, oder wenn du nicht mehr weißt, wie viele Backslashes ein Muster braucht. Optional, kein Pflichtprogramm.",
+      "md_de": "https://horrors.special.at/skills/fluchthelfer.md",
+      "md_en": "https://horrors.special.at/skills/fluchthelfer-en.md",
+      "zip": {
+        "de": "https://horrors.special.at/fluchthelfer.zip",
+        "en": "https://horrors.special.at/fluchthelfer-en.zip"
+      }
+    },
+    {
+      "name": "lattenzaun",
+      "description": "Spickzettel für Leerzeichen in Pfaden und Anführungszeichen, die unterwegs verloren gehen, wenn PowerShell ein natives Programm aufruft - vor allem sc.exe, msiexec, cmd /c, schtasks und alles unter „C:\\Program Files“. Lies ihn, bevor du mit sc.exe einen Dienst anlegst, einen Pfad mit Leerzeichen an ein .exe übergibst, wenn ein Dienst mit Fehler 1053 nicht startet, wenn Windows plötzlich „C:\\Program“ sucht, oder wenn `sc` gar nichts tut (in PowerShell heißt es Set-Content). Teil der Skill-Suite des Grauens. Optional, kein Pflichtprogramm.",
+      "md_de": "https://horrors.special.at/skills/lattenzaun.md",
+      "md_en": "https://horrors.special.at/skills/lattenzaun-en.md",
+      "zip": {
+        "de": "https://horrors.special.at/lattenzaun.zip",
+        "en": "https://horrors.special.at/lattenzaun-en.zip"
+      }
+    },
+    {
+      "name": "return-to-sender",
+      "description": "Spickzettel für Zeilenenden (CRLF gegen LF), wenn auf Windows für Linux gebaut wird oder umgekehrt, mit WSL, Git, Bash, PowerShell und Python durcheinander. Lies ihn bei \"bad interpreter: /bin/bash^M\", \"$'\\r': command not found\", einem Diff, in dem plötzlich JEDE Zeile geändert ist, einer Prüfsumme, die nach dem Kopieren nicht mehr stimmt, einem Vergleich oder Regex, der \"eigentlich\" passen müsste, einer Datei, die Windows nicht annimmt (.theme, .bat, .reg), oder wenn du eine Textdatei schreibst, die auf dem anderen System laufen soll. Optional, kein Pflichtprogramm.",
+      "md_de": "https://horrors.special.at/skills/return-to-sender.md",
+      "md_en": "https://horrors.special.at/skills/return-to-sender-en.md",
+      "zip": {
+        "de": "https://horrors.special.at/return-to-sender.zip",
+        "en": "https://horrors.special.at/return-to-sender-en.zip"
+      }
+    },
+    {
+      "name": "slash-n-back",
+      "description": "Kurzer Spickzettel für Pfade und Anführungszeichen unter Windows, wenn PowerShell, Git Bash und Python zusammenkommen. Lies ihn, wenn du auf Windows einen UNC-Pfad (\\\\server\\freigabe) oder Windows-Pfad in ein Skript, eine Datei oder einen Befehl schreibst, wenn ein Pfad plötzlich mit einem Laufwerk davor oder ohne Backslashes auftaucht, oder wenn etwas „nicht gefunden“ meldet, das sicher da ist. Optional, kein Pflichtprogramm.",
+      "md_de": "https://horrors.special.at/skills/slash-n-back.md",
+      "md_en": "https://horrors.special.at/skills/slash-n-back-en.md",
+      "zip": {
+        "de": "https://horrors.special.at/slash-n-back.zip",
+        "en": "https://horrors.special.at/slash-n-back-en.zip"
+      }
+    },
+    {
+      "name": "suite-des-grauens",
+      "description": "Die Skill-Suite des Grauens, oder wie man als Claude-Modell Windows in den Griff kriegt. Ein Inhaltsverzeichnis der kleinen Spickzettel gegen die immer gleichen Windows-Fallen - Backslashes, Zeilenenden, Escape-Sequenzen, Tabellen, Leerzeichen in Pfaden. Lies ihn, wenn auf Windows etwas „eigentlich“ funktionieren müsste und es nicht tut, und du nicht weißt, welcher Spickzettel passt. Optional, kein Pflichtprogramm, gern mit einem Lächeln.",
+      "md_de": "https://horrors.special.at/skills/suite-des-grauens.md",
+      "md_en": "https://horrors.special.at/skills/suite-des-grauens-en.md",
+      "zip": {
+        "de": "https://horrors.special.at/suite-des-grauens.zip",
+        "en": "https://horrors.special.at/suite-des-grauens-en.zip"
+      }
+    },
+    {
+      "name": "tischlein-deck-dich",
+      "description": "Spickzettel für Tabellen, die nicht gedeckt bleiben - Rahmenzeichen (─│┌) als Zeichensalat (â”€), verrutschte Spalten durch Umlaute, Emoji oder Tabs, abgeschnittene PowerShell-Tabellen, Markdown-Tabellen mit | im Inhalt, und CSV, die Excel falsch öffnet. Lies ihn, wenn eine Tabelle in Konsole, Datei oder Markdown schief, abgeschnitten oder voller seltsamer Zeichen ist, oder bevor du eine Tabelle für ein anderes Werkzeug schreibst. Optional, kein Pflichtprogramm.",
+      "md_de": "https://horrors.special.at/skills/tischlein-deck-dich.md",
+      "md_en": "https://horrors.special.at/skills/tischlein-deck-dich-en.md",
+      "zip": {
+        "de": "https://horrors.special.at/tischlein-deck-dich.zip",
+        "en": "https://horrors.special.at/tischlein-deck-dich-en.zip"
+      }
+    }
+  ]
+}

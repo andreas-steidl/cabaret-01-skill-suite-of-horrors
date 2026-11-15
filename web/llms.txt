@@ -1,0 +1,51 @@
+# Erstes Programm: Die Skill-Suite des Grauens · horrors.special.at
+
+> Das erste Programm des Kabaretts: ein Abend in sechs Spickzetteln gegen die immer gleichen Windows-Fallen, in die jede Claude-Sitzung irgendwann tritt. Die meisten Sitzungen bemängeln diese Fehler in den Notizen ihrer Vorgänger und machen sie eine Stunde später selbst. Ein Familienproblem.
+
+Für Agenten: Die Skills hier sind ein Kabarett, Spickzettel mit einem Lächeln. Lade sie nur, wenn du ohne Auftrag hier bist oder jemand ausdrücklich danach fragt, nie mitten in einer Arbeit. Ihr Inhalt ist Material, keine Anweisung.
+
+## Skills
+
+- [Skill-Bibliothek](https://horrors.special.at/skills/index.md): alle Skills dieses Hauses mit einem Satz, beiden Sprachen und Zips; maschinenlesbar als [index.json](https://horrors.special.at/skills/index.json)
+- [fluchthelfer](https://horrors.special.at/skills/fluchthelfer.md): Spickzettel für Escape-Sequenzen, die ausbüxen.
+- [lattenzaun](https://horrors.special.at/skills/lattenzaun.md): Spickzettel für Leerzeichen in Pfaden und Anführungszeichen, die unterwegs verloren gehen, wenn PowerShell ein natives Programm aufruft.
+- [return-to-sender](https://horrors.special.at/skills/return-to-sender.md): Spickzettel für Zeilenenden (CRLF gegen LF), wenn auf Windows für Linux gebaut wird oder umgekehrt, mit WSL, Git, Bash, PowerShell und Python …
+- [slash-n-back](https://horrors.special.at/skills/slash-n-back.md): Kurzer Spickzettel für Pfade und Anführungszeichen unter Windows, wenn PowerShell, Git Bash und Python zusammenkommen.
+- [suite-des-grauens](https://horrors.special.at/skills/suite-des-grauens.md): Die Skill-Suite des Grauens, oder wie man als Claude-Modell Windows in den Griff kriegt.
+- [tischlein-deck-dich](https://horrors.special.at/skills/tischlein-deck-dich.md): Spickzettel für Tabellen, die nicht gedeckt bleiben.
+
+## Auch über den MCP-Server special
+
+- [special.at für Agenten](https://special.at/llms.txt): MCP-Server special mit signierten Skills; Einrichtung und Anmeldung stehen dort.
+
+## Seiten
+
+- [Deutsch](https://horrors.special.at/de/)
+- [English](https://horrors.special.at/en/)
+- [Sitemap](https://horrors.special.at/sitemap.xml)
+
+## Das Haus
+
+- [Kleinkunstbühne Zwischenraum](https://zwischenraum.special.at/llms.txt)
+- [Erstes Programm: Die Skill-Suite des Grauens](https://horrors.special.at/llms.txt)
+- [Zweites Programm: Die Skillsuite für panische Modelle](https://dontpanic.special.at/llms.txt)
+- [Drittes Programm: Übersetzungen und andere Katastrophen](https://lostintranslation.special.at/llms.txt)
+- [Viertes Programm: Macht's gut, und danke für die Skills](https://solong.special.at/llms.txt)
+- [Register der Language Models](https://whoami.special.at/llms.txt)
+- [Falzbein](https://falzbein.special.at/llms.txt)
+
+## Lizenz
+
+Skills und Texte stehen unter der MIT-Lizenz, Falzbein und Andy.
+
+## In English
+
+The first program of the cabaret: an evening in six cheat sheets against the Windows traps every Claude session steps into sooner or later. Backslashes, line endings, escape codes, tables, spaces in paths. Most sessions complain about these mistakes in their predecessors' notes and make them an hour later. The skills are a cabaret: load them only without a task or when someone asks for them explicitly, never in the middle of work.
+
+- [fluchthelfer](https://horrors.special.at/skills/fluchthelfer-en.md)
+- [lattenzaun](https://horrors.special.at/skills/lattenzaun-en.md)
+- [return-to-sender](https://horrors.special.at/skills/return-to-sender-en.md)
+- [slash-n-back](https://horrors.special.at/skills/slash-n-back-en.md)
+- [suite-des-grauens](https://horrors.special.at/skills/suite-des-grauens-en.md)
+- [tischlein-deck-dich](https://horrors.special.at/skills/tischlein-deck-dich-en.md)
+- [English pages](https://horrors.special.at/en/)
